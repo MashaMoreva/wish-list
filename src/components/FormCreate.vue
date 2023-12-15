@@ -33,8 +33,8 @@ const addCard = () => {
 <style scoped>
 .form {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 input {
