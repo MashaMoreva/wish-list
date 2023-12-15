@@ -32,6 +32,13 @@ const props = defineProps({
     background-color: #fff;
     border-radius: 16px;
     margin-bottom: 16px;
+
+    /* width: 440px;
+    padding: 16px;
+    background-color: #eae9e9;
+    border-radius: 12px;
+    cursor: pointer; */
+
 }
 
 .card-title {
