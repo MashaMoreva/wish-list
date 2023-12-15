@@ -2,7 +2,7 @@
     <div class="card">
         <div class="card-title">{{ card.title }}</div>
         <div class="card-description">{{ card.description }}</div>
-        <div class="card-com">
+        <div class="card-completed">
             <div :class="{
                 'card-is-completed': card.completed,
                 'card-is-not-completed': !card.completed,
@@ -27,18 +27,11 @@ const props = defineProps({
 
 <style scoped>
 .card {
-    width: 300px;
-    padding: 24px 24px 16px;
-    background-color: #fff;
-    border-radius: 16px;
-    margin-bottom: 16px;
-
-    /* width: 440px;
+    width: 440px;
     padding: 16px;
     background-color: #eae9e9;
     border-radius: 12px;
-    cursor: pointer; */
-
+    cursor: pointer;
 }
 
 .card-title {
@@ -62,6 +55,13 @@ const props = defineProps({
     padding: 0 6px;
     border: 1px solid rgb(42, 182, 231);
     color: rgb(42, 182, 231);
+    border-radius: 4px;
+}
+
+.card-is-not-completed {
+    padding: 0 6px;
+    border: 1px solid rgb(106, 109, 114);
+    color: rgb(106, 109, 114);
     border-radius: 4px;
 }
 </style>

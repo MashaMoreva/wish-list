@@ -1,6 +1,6 @@
 <template>
-    <h2>Форма создания</h2>
     <form class="form" @submit.prevent="addCard">
+        <h2>Форма создания</h2>
         <label>
             <span>Название:</span>
             <input type="text" v-model="newCard.title" />
@@ -32,11 +32,13 @@ const addCard = () => {
 
 <style scoped>
 .form {
-    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 input {
     margin-left: 4px;
-    margin-bottom: 8px;
+    margin-bottom: 24px;
 }
 </style>
