@@ -1,5 +1,5 @@
 <template>
-    <h2>Форма редактирования</h2>
+    <h2>Pедактирование желания</h2>
     <form class="form" @submit.prevent="saveCard">
         <label>
             <span>Название:</span>
