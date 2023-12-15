@@ -1,29 +1,45 @@
-# wish-list
+# Wish list
 
-This template should help get you started developing with Vue 3 in Vite.
+Простое веб-приложение для создания и управления списком ваших желаний.
 
-## Recommended IDE Setup
+#### Функционал:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Добавляйте новые желания в ваш список, указывая их название и краткое описание.
+- Вы можете отметить ваши желания как исполненные.
+- Изменяйте название и описание желаний, чтобы ваш список всегда был актуальным.
+- Вы можете удалить те желания, которые больше не актуальны.
 
-## Customize configuration
+#### Стек:
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Приложение разработано с использованием фреймворка **Vue 3** для удобного управления интерфейсом
 
-## Project Setup
+#### Инструкции по установке:
+
+- cкачайте репозиторий с приложением или склонируйте его с помощью команды:
+
+```sh
+git clone https://github.com/MashaMoreva/wish-list.git
+```
+
+- перейдите в папку проекта:
+
+```sh
+cd wish-list
+```
+
+- установите необходимые зависимости:
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+- запустите проект:
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+(приложение будет доступно по адресу http://localhost:5173/)
 
-```sh
-npm run build
-```
+<!-- #### Ссылка на проект
+* [посмотреть на Netlify]() -->
