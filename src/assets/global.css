@@ -1,9 +1,14 @@
 body {
     background-color: rgb(241, 248, 255);
     color: #212121;
+    
 }
 
 .container {
     width: 80%;
     max-width: 0 auto;
+}
+
+.wrapper {
+    position: relative;
 }
