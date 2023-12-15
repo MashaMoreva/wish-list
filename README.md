@@ -41,5 +41,6 @@ npm run dev
 
 (приложение будет доступно по адресу http://localhost:5173/)
 
-<!-- #### Ссылка на проект
-* [посмотреть на Netlify]() -->
+#### Ссылка на проект
+
+- [посмотреть на Netlify](https://gleaming-lolly-f74c36.netlify.app/)
