@@ -14,7 +14,6 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
 
 const props = defineProps({
     card: {
@@ -40,13 +39,4 @@ const saveCard = () => {
 }
 </script>
 
-<style scoped>
-.form {
-    margin-bottom: 12px;
-}
-
-input {
-    margin-left: 4px;
-    margin-bottom: 8px;
-}
-</style>
+<style scoped></style>

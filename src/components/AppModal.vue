@@ -46,7 +46,7 @@ const props = defineProps({
     padding: 30px;
     margin: 0 auto;
     background: #fff;
-    border-radius: 4px;
+    border-radius: 20px;
 }
 
 .modal_close {

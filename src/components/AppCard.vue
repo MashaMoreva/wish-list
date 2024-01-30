@@ -27,12 +27,13 @@ const props = defineProps({
 
 <style scoped>
 .card {
-    width: 440px;
-    padding: 16px;
-    background-color: #eae9e9;
-    border-radius: 12px;
-    cursor: pointer;
+    width: 300px;
+    padding: 24px 24px 16px;
+    background-color: #f0ebeb;
+    border-radius: 16px;
+    margin-bottom: 16px;
 }
+
 
 .card-title {
     font-size: 18px;
@@ -40,10 +41,12 @@ const props = defineProps({
     margin-bottom: 8px;
 }
 
+
 .card-description {
     color: rgb(106, 109, 114);
     margin-bottom: 16px;
 }
+
 
 .card-completed {
     display: flex;
@@ -51,17 +54,19 @@ const props = defineProps({
     gap: 4px;
 }
 
+
 .card-is-completed {
     padding: 0 6px;
-    border: 1px solid rgb(42, 182, 231);
-    color: rgb(42, 182, 231);
+    border: 1px solid rgba(204, 102, 51, 1);
+    color: rgba(204, 102, 51, 1);
     border-radius: 4px;
 }
 
+
 .card-is-not-completed {
     padding: 0 6px;
-    border: 1px solid rgb(106, 109, 114);
-    color: rgb(106, 109, 114);
+    border: 1px solid rgb(166, 182, 197);
+    color: rgb(166, 182, 197);
     border-radius: 4px;
 }
 </style>

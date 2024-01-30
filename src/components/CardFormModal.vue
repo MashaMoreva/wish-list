@@ -63,32 +63,25 @@ const cancelEdit = () => {
     flex-direction: column;
 }
 
-input {
-    margin-left: 4px;
-    margin-bottom: 24px;
-    width: 80%;
-}
-
 .modal-wrapper {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 380px;
-    height: 280px;
 }
 
 button {
     width: 180px;
-    cursor: pointer;
+    background: #D9D9D9;
 }
 
 .actions {
     display: flex;
-    margin-top: 32px;
+    margin-top: 30px;
 }
 
 .save-button {
-    background-color: #a2ffa2;
+    background-color: rgba(204, 102, 51, 1);
     margin-right: 8px;
 }
 </style>

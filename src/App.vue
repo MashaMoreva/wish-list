@@ -57,7 +57,7 @@ const openCardForEdit = (card) => {
 };
 </script>
   
-<style scoped>
+<style>
 @import './assets/global.css';
 </style>
   

@@ -32,13 +32,18 @@ const addCard = () => {
 
 <style scoped>
 .form {
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+    padding: 30px;
+    width: 400px;
+    margin: 50px 0;
 }
 
-input {
-    margin-left: 4px;
-    margin-bottom: 24px;
+button {
+    margin-top: 30px;
+    background-color: rgba(204, 102, 51, 1);
 }
 </style>
